@@ -1,0 +1,48 @@
+body {
+    background-color: #aad4cf;
+    font-family:Arial ;
+}
+#sf-image {
+    display: inline-block;
+    width: 100%;
+} 
+#assi-title {
+    color: rgb(255, 255, 255);
+    margin-top: -120px;
+    position: absolute;
+    margin-left: 400;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #d4e9e7;
+}
+#sf-image2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right:17px;
+    margin-bottom: 6px;
+}
+nav {
+    margin-bottom: 1.5em;
+}
+nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: black 2px solid;
+    width: 33%;
+}
+nav ul li:last-child {
+    border: none;
+}
+
+#contact {
+    border: 1.5px solid rgb(0, 0, 0);
+}
