@@ -1,6 +1,6 @@
 body {
     background-color: #aad4cf;
-    font-family:Arial ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 #sf-image {
     display: inline-block;
@@ -18,8 +18,8 @@ body {
     background: #d4e9e7;
 }
 #sf-image2 {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     float: left;
     margin-right:17px;
     margin-bottom: 6px;
@@ -37,7 +37,7 @@ nav ul li {
     text-align: center;
     box-sizing: border-box;
     border-right: black 2px solid;
-    width: 33%;
+    width: 31%;
 }
 nav ul li:last-child {
     border: none;
@@ -45,4 +45,28 @@ nav ul li:last-child {
 
 #contact {
     border: 1.5px solid rgb(0, 0, 0);
+    padding: 1em;
+    
+}
+.margin {
+    margin: 0.5em;
+}
+#contact input[type="text"] , input[type="email"]  , textarea {
+    width: 100%;
+    margin: 0.5em;
+
+}
+nav ul a:hover,
+nav ul a:focus {
+  text-decoration: underline;
+}
+footer {
+    text-align: right;
+    padding: 1em;
+}
+button {
+    background-color: #d4e9e7 ;
+    padding: 0.5em;
+    border: 1.5px solid rgb(0, 0, 0);
+    margin-top: 1em;
 }
