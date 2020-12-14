@@ -1,0 +1,259 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Starting css for assignment */
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  /* Adding values to headings */
+h1,h2,h3,h4,
+h5 {
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+padding:0 1em;
+}
+
+h1 {
+    font-size: 5.063rem;
+  }
+  
+  h2 {
+    font-size: 3.375rem;
+  }
+  
+  h3 {
+    font-size: 2.25rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+
+
+  body {
+    line-height: 1.5;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    line-height: inherit;
+  }
+  
+  
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  a,p {
+    margin: 1em 0;
+    padding: 1em;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  /* Editing Header Section */
+  
+.site-logo{
+    display:block;
+    background-color: #c78c06;
+    max-width: 100px;
+}
+  
+  
+.web-nav{
+    background-color:#222;
+}
+
+.select {
+    background-color:#c78c06;}
+
+    /* Editing Navigation section */
+.web-nav li{
+    text-align: center;
+}
+
+
+.web-nav a,.web-nav a:link,
+.web-nav a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: #c78c06;
+}
+.web-nav a:hover,
+.web-nav a:focus,
+.web-nav a.select {
+  background-color:#c78c06;
+  color: inherit;
+}
+
+.warp{
+        position: absolute;
+        margin-top: -520px;
+        background-color: #222222cc;
+        color: white
+      }
+#about{
+    background-color: #ffe6ac;
+}
+.backgroundg-color{
+    background-color: #ffe6ac;
+    margin-bottom:1em;  
+}
